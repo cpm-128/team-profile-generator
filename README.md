@@ -77,18 +77,15 @@ To quickly generate a team summary.
 <img src="./images/command-line-prompts.png">
 
 2. Generated Webpage
-TBD
+<img src="./images/generated-webpage.png">
 
 ### Video Walk Through
-<a href="https://drive.google.com/file/d/1u4PsMq-wrKkO-wHK6wH9yBl0A5aD_AN4/view">Watch here.</a>
-1. Tests do pass
-2. Command line prompts from previous run-through
-3. _node index_ has an error
-4. This error is in the _page-template.js_ file where the user entered information is not being pulled into the function
-5. A _team.html file_ is generated but it is blank
+<a href="https://drive.google.com/file/d/1wpwMjsmf8UXjHD7nRdHcQpE38q-xi-CJ/view?usp=sharing">Watch here.</a>
+1. All four tests pass from the command line
+2. Demonstrates how a user would invoke the application from the command line
+3. Demonstrates how a user would enter responses to all of the prompts in the application
+4. Demonstrates a generated HTML file that matches the user input
 
-### Bugs for Updating
-The HTML page is not populated with content when generated. This lies in an issue with the page-template.js file. The user-entered information from the command line is not being pulled into the page-template file. Once this is fixed, content should be populated onto the page when the app is executed.
 ## License
 MIT License
 
