@@ -81,6 +81,11 @@ TBD
 
 ### Video Walk Through
 <a href="https://drive.google.com/file/d/1u4PsMq-wrKkO-wHK6wH9yBl0A5aD_AN4/view">Watch here.</a>
+1. Tests do pass
+2. Command line prompts from previous run-through
+3. _node index_ has an error
+4. This error is in the _page-template.js_ file where the user entered information is not being pulled into the function
+5. A _team.html file_ is generated but it is blank
 
 ### Bugs for Updating
 The HTML page is not populated with content when generated. This lies in an issue with the page-template.js file. The user-entered information from the command line is not being pulled into the page-template file. Once this is fixed, content should be populated onto the page when the app is executed.
