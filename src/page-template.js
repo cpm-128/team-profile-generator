@@ -1,6 +1,3 @@
-// get data for inquirer array
-const teamProfileArr = require('./../index')
-
 // create Manager card template
 const generateManager = function(manager) {
     return `
@@ -67,6 +64,9 @@ generateHTML = (teamProfileArr) => {
         const employee = teamProfileArr[i];
         const role = employee.getRole();
 
+        //console.log(">> employee: " , employee)
+        //console.log(">> employee role: ", employee.role)
+
         // call manager
         if (role === 'Manager') {
             const managerCard = generateManager(employee);
@@ -86,6 +86,7 @@ generateHTML = (teamProfileArr) => {
         };
     };
 
+    //console.log(pageArr);
     // join strings
     const employeeCards = pageArr.join('');
 
@@ -124,9 +125,6 @@ const generateTeamPage = function(employeeCards) {
     </html>
     `;
 };
-
-// call the function
-generateHTML();
 
 // export
 module.exports = generateHTML;
