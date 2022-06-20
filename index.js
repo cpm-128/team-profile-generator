@@ -121,7 +121,7 @@ const employeePrompt = () => {
                         teamProfileArr.push(intern);
                         break;
                 }
-                return employeePrompt.then(() => resolve());
+                return employeePrompt().then(() => resolve());
             } else {
                 return resolve();
             }
@@ -130,4 +130,7 @@ const employeePrompt = () => {
 };
 // end employeePrompt
 
-managerPrompt();
+// generate html
+
+// init the app
+employeePrompt();
