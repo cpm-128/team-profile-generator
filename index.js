@@ -4,6 +4,7 @@ const Employee = require('./lib/Employee');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
+const generatePage = require('./src/page-template');
 
 // completed employee data will need to be push to an array
 const teamProfileArr = [];
@@ -133,4 +134,3 @@ const employeePrompt = () => {
 // generate html
 
 // init the app
-employeePrompt();
