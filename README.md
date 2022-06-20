@@ -74,14 +74,16 @@ To quickly generate a team summary.
 ## Deployed Application
 ### Screencapture
 1. Terminal
-<img src="./images/">
+<img src="./images/command-line-prompts.png">
 
 2. Generated Webpage
-<img src="./images/">
+TBD
 
 ### Video Walk Through
-<a href="">Watch here.</a>
+<a href="https://drive.google.com/file/d/1u4PsMq-wrKkO-wHK6wH9yBl0A5aD_AN4/view">Watch here.</a>
 
+### Bugs for Updating
+The HTML page is not populated with content when generated. This lies in an issue with the page-template.js file. The user-entered information from the command line is not being pulled into the page-template file. Once this is fixed, content should be populated onto the page when the app is executed.
 ## License
 MIT License
 
