@@ -69,15 +69,15 @@ THEN I exit the application, and the HTML is generated
 To quickly generate a team summary.
 
 ## Mock-Up
-<img src="./images/mock-up.png">
+<img src="./Images/mock-up.png">
 
 ## Deployed Application
 ### Screencapture
 1. Terminal
-<img src="./images/command-line-prompts.png">
+<img src="./Images/command-line-prompts.png">
 
 2. Generated Webpage
-<img src="./images/generated-webpage.png">
+<img src="./Images/generated-webpage.png">
 
 ### Video Walk Through
 <a href="https://drive.google.com/file/d/1wpwMjsmf8UXjHD7nRdHcQpE38q-xi-CJ/view?usp=sharing">Watch here.</a>
